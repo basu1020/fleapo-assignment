@@ -1,0 +1,125 @@
+.custom-width {
+    width: 40vw;
+}
+
+.custom-width-80 {
+    width: 80vw;
+}
+
+.custom-width-full {
+    width: 100%;
+}
+
+.custom-width-100 {
+    width: 100vw;
+}
+
+.custom-height-100 {
+    height: 100vh;
+}
+
+.custom-height-90{
+    height: 90vh;
+}
+
+.custom-height-80 {
+    height: 80vh;
+}
+
+.gradient-div {
+    background: linear-gradient(to bottom, rgb(237, 206, 8), orange);
+}
+
+.hero-gradient-bg {
+    background: linear-gradient(135deg, #ff8c00, #ffc966);
+}
+
+.opacity-decreasing-div {
+    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    height: 250px;
+    /* Adjust height as needed */
+    width: 100%;
+    /* Adjust width as needed */
+    /* position: relative; Establishes a positioning context */
+}
+
+.parent-container {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 250px;
+    /* Adjust height for your desired overlay */
+    background: linear-gradient(to top, rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+    pointer-events: none;
+    /* Allows clicks to fall through to the content */
+}
+
+.flex-col-just-center-align-center {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-col-just-start-align-center {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.flex-col-just-end-align-center {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+}
+
+.flex-col-just-evenly-align-center {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+
+.flex-row-just-center-align-center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row-just-evenly-align-center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.flex-row-just-start-align-center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    align-items: center;
+}
+
+.flex-row-just-end-align-center {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: end;
+    align-items: center;
+}
